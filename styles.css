@@ -1,0 +1,36 @@
+body{
+    background-color: blanchedalmond;
+}
+.title{
+    background-color: rgb(135, 47, 115);
+    text-align: center;
+    color:aliceblue;
+}
+.center{
+    background-color: rgb(135, 47, 115);
+    display:flex;
+    color:antiquewhite;
+
+}
+.img1{
+    margin: 40px;
+}
+.img2{
+    margin: 40px;
+}
+.row1{
+    background-color: blue;
+    color:blanchedalmond;
+}
+.col1{
+    background-color: blue;
+    color:blanchedalmond;
+}
+.col2{
+    background-color: red;
+    color: white;
+}
+.form{
+    background-color: rgb(135, 47, 115);
+    color:blanchedalmond;
+}

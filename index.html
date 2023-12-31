@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Web Development PortFolio</title>
+        
+    <link rel="styleSheet" href="styles.css"></head>
+    <body data-new-gr-c-s-check-loaded="14.1146.0" data-gr-ext-installed="">
+      <div class="title">
+        <h1>Web Development PortFolio</h1>
+        <h2>By Jean-Pierre Kasonga</h2>
+      </div>
+        <div>
+            <p>What html,css and Javascript can do ? I designed this simple page just to respond to the question as my web Development PortFolio. This web page is an example of how we can use html , css and javascript to make a responsive web page at some extent; knowing that bootstrap would have helped to meet the requirement of Mobile-First features. Only in coding one becomes a developer.
+               That is how I discovered the power of div(s) to help organize the web page structure.  The flow of my html page is based on a judicious choice of div(s). A first div contains the h1 and h2 elements indicating the title and the author. A secomd div contains the introducting words paragraph . Following is section element with 4 div(s) containing a list of things I have done ,two images of my portraits and a list of circumstances that called my attention to coding.  After the central section I have a div for a table of things I like. Another div contains the concluding words. Finally I create a div to contain the fieldset with the form to be field by the client. Right this form doesn't work because this page is not linked to server.
+               I noticed also that without CSS the html structure is vertical, each element mentioned above following the other without colors nor motion. For this reason ,I like to compare html page to the human skeleton without flesh. In art,the skeleton evokes the idea of ghost or dead person. I mean that html alone is boring. However, a human body without skeleton cannot stand. So html is needed and the developer has to set it up and embelish it. That is why, I have created a styles.css file that contains all the instructions to apply to my html page in order to make it look beautiful. To implement these instructions, I have chosen class(es) and Id(s) selectors to apply properties on the html elements. For example ,the class center allowed me to change the html vertical layout of lists and images into an horintal layout by the mean of the display-flex property. In the same way I applied color and background-color to diffrent parts of the page. Now the page looks like pretty.
+               Yes. It is pretty but static,lacking motion or interactivity. Therefore , I invited Javascript to help. Instead of creating a Javascript file, I embeded my script in the html placing it before the body's closing tag. The Javascript code inside the script has the power to bring motion to the html-css-page. Of course ,I linked the 4 buttons to the id(s) of each element to be toggled. With the power of javascript addEventListener code the computer is not only able to listen to the click made upon the buttons, but to obey to that prompt. In obedience to the prompt , the computer will make the specified element appear or disappear from the page. So ,by clicking on the buttons one after another you will remove from the page the lists , images and table ; only to keep on it the buttons, the introducting and concluding texts and the form. Vis-versa, you can bring back these elements again just by clicking the same buttons one after another. It is almost magic,isn't?</p>
+        </div>
+      <div>
+      <button id="togg1">What I have done before becoming Freelance developer</button>
+      <button id="togg2">Young priest JPK</button>
+      <button id="togg3">JPK relaxing after coding</button>
+      <button id="togg4">What called my attention to coding ?</button>
+      <button id="togg5">Table</button>
+        </div>
+        <section class="center">
+            <div id="d1" style="display: block;">
+                <ol> 
+                  <li>Before coding ,I taught Math at high school .</li>
+                  <li>I taught logic and logic-Math at the Major seminary.</li>
+                  <li>I preached and taught religion to children, youths and adults.</li>
+                  <li>I ministered as chaplain at hospitals and to Knight of Columbus.</li>
+                </ol>
+              </div>
+              <div id="d2" style="display: block;">
+              <div class="img1">
+                <img src="./images/young priest.JPG" width="180" alt="JPK Young priest">
+               </div>
+              </div> 
+              <div id="d3" style="display: block;">
+               <div class="img2">
+                <img src="./images/JeanpyIn Jersey.jpeg" width="180" alt="JPK reflecting coding">
+              </div>
+              </div>
+              <div id="d4" style="display: block;">
+                <ul> 
+                  <li>My interest for coding came after studying <br> window, word, power-point, excel, and access computer program<br>at Highline college With Michael Girvin</li>
+                  <li>The first school I tried to go in order to learn<br> coding was Flatiron but I could not afford it</li>
+                  <li>Then I discovered online W3School and got a <br>first certificate in Html online. After I discovered Duke<br> University online again where I received a<br> certificate in Html,Css and Javascript</li>
+                  <li>Finally I found nucamp where with more<br> dedication I became a fullstack <br>graduate in June 2022 "</li>
+                  <li>Now I am interested in the Backend, SQL, and DevOps with Python Bootcamp.</li>
+                </ul>
+              </div>
+            </section>
+            <div id="d5" style="display: block;">
+                Likes
+                  <table width="100%" border="3"><tbody><tr class="row1">
+                    <td>Food</td>
+                    <td>Games</td>
+                    <td>Studying way</td>
+                    <td>Rest of time</td>
+                </tr>
+                <tr>
+                  <td class="col1">Fufu</td>
+                  <td class="col2">Soccer</td>
+                  <td class="col2">Tutorial</td>
+                  <td class="col2">Prayer</td>  
+              </tr>
+              <tr>
+                <td class="col1">vegetables and meat</td>
+                <td class="col2">Karate</td>
+                <td class="col2">Bootcamp</td>
+                <td class="col2">Spiritual reading</td>
+            </tr>
+            <tr>
+              <td class="col1">Fruits like avocado and banana</td>
+              <td class="col2">Movie,show or theater</td>
+              <td class="col2">Reading</td>
+              <td class="col2">Meditation</td>
+          </tr>
+                </tbody></table>
+              </div>
+              <div>
+                <p><em><b>
+                  Thank you for visiting this page. Hopefully you have enjoyed the simplicity of the html, the beauty of css and the interactivity of Javascript. Of course , when you look at the page, you will not be able to distinguish the html from css or from Javascript. The page is like the symphony of these three technologies in one piece. The way they work together produce the magic effect .But Html , CSS and Javascript are not mystical things . These are modern web development technologies accessible to everyone from elementary school students, to college and university students and scholars. Everybody can do it .With interest ,search and dedication you can do it too.
+          If you are interested, submit y`our credentials in the form below. I will be back to you shortly. My promise to you is that I will recommend you to one of the nucamp embassadors to quench your coding hunger. Or, if you want, I will show you some tricks to help you write your first "Hello World page!" within a week and lead you on the path to master coding. Yes,coding is not about talking but about technology or developing practical skills. You just need to practice and develop new languages different from our ordinary language. As you know ,the Bible says that God created the world with His Eternal WORD.Being God's creatures we too can create with words. By the way, John L. Austin ,a British philosopher of language and leading proponent of ordinary language philosophy wrote a book intitled "How to Do Things With Words".In the same way pastors' words have converted souls and made miracles, in our days web pages and apps have transformed different sectors of human life and set the world on fire. One who has set his hand on coding activity should not look back!Bye! See you soon with a bootstrap page.
+        </b></em></p>
+              </div>
+              <div class="form">
+                <fieldset text-align="left" width="50%" border="4">
+                  <legend>Your contact details</legend>
+                    <form name="login_form" autocomplete="off" novalidate="" method="post" onsubmit="return false">
+                        <label>
+                         Name
+                         <input type="text" name="username">
+                        </label>      
+                        <label>
+                         Email
+                        <input type="email" name="email">
+                        </label>
+                        <label>
+                        Phone Number
+                        <input type="tel" name="phone">
+                        </label>
+                        <button type="submit">Submit</button>
+                      </form>
+                    </fieldset>           
+            </div>
+            <script>
+              let togg1=document.getElementById("togg1");
+              let togg2=document.getElementById("togg2");
+              let togg3=document.getElementById("togg3");
+              let togg4=document.getElementById("togg4");
+              let togg5=document.getElementById("togg5");
+              let d1=document.getElementById("d1");
+              let d2=document.getElementById("d2");
+              let d3=document.getElementById("d3");
+              let d4=document.getElementById("d4");
+              let d5=document.getElementById("d5");
+              togg1.addEventListener("click",()=>{
+          if(getComputedStyle(d1).display != "none"){
+              d1.style.display="none";
+          }else{
+              d1.style.display="block";
+          }
+      })
+      togg2.addEventListener("click",()=>{
+          if(getComputedStyle(d2).display != "none"){
+              d2.style.display="none";
+          }else{
+              d2.style.display="block";
+          }
+      })
+      togg3.addEventListener("click",()=>{
+          if(getComputedStyle(d3).display != "none"){
+              d3.style.display="none";
+          }else{
+              d3.style.display="block";
+          }
+      })
+      togg4.addEventListener("click",()=>{
+          if(getComputedStyle(d4).display != "none"){
+              d4.style.display="none";
+          }else{
+              d4.style.display="block";
+          }
+      })
+      
+      togg5.addEventListener("click",()=>{
+          if(getComputedStyle(d5).display != "none"){
+              d5.style.display="none";
+          }else{
+              d5.style.display="block";
+          }
+      })
+            </script>
+    </body>
+    </html>  
